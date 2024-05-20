@@ -1,7 +1,7 @@
 const NavLinks = () => {
   return (
     <>
-      <nav className=" items-stretch flex h-full">
+      <nav className=" items-stretch h-full hidden md:flex">
         <a
           href=""
           className=" h-full flex items-center hover:border-b-teal-600 hover:border-b-2 px-2  transition-all delay-75"

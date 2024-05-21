@@ -6,7 +6,7 @@ import MobileNav from "./MobileNav";
 
 const Navbar = () => {
   return (
-    <div className=" bg-white flex justify-between h-20 px-5  items-center">
+    <div className=" bg-white flex justify-between h-20 px-5  items-center z-10 relative">
       <Header />
       <NavLinks />
 

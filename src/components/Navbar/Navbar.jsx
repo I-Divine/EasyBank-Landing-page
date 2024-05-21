@@ -1,4 +1,4 @@
-import ResquestInvite from "../RequestInvite";
+import RequestInvite from "../RequestInvite";
 import "../../App.css";
 import Header from "./Header";
 import NavLinks from "./Navlinks";
@@ -11,7 +11,7 @@ const Navbar = () => {
       <NavLinks />
 
       <div className=" hidden md:block">
-        <ResquestInvite />
+        <RequestInvite />
       </div>
 
       <MobileNav />

@@ -1,4 +1,4 @@
-const ResquestInvite = () => {
+const RequestInvite = () => {
   return (
     <a
       href="#"
@@ -8,4 +8,4 @@ const ResquestInvite = () => {
     </a>
   );
 };
-export default ResquestInvite;
+export default RequestInvite;

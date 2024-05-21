@@ -1,5 +1,6 @@
 import harmburgerIcon from "../../assets/images/icon-hamburger.svg";
 import closeIcon from "../../assets/images/icon-close.svg";
+import RequestInvite from "../RequestInvite";
 const MobileNav = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const MobileNav = () => {
               <a href="">Contact</a>
               <a href="">Blog</a>
               <a href="">Careers</a>
+              <RequestInvite />
             </nav>
           </div>
         </label>

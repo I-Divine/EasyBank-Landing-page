@@ -3,7 +3,7 @@ import imageMockup from "../../assets/images/image-mockups.png";
 const HeroSection = () => {
   return (
     <>
-      <div className="grid md:grid-cols-2">
+      <div className="grid md:grid-cols-2 bg-very-light-gray">
         <div
           className=" 
           flex justify-center
@@ -18,9 +18,11 @@ const HeroSection = () => {
             alt=""
           />
         </div>
-        <div className=" md:row-start-1 px-10 py-10 pb-20 text-center md:text-left">
-          <h3 className=" text-5xl">Next generation digital banking</h3>
-          <p className=" text-lg my-10 line">
+        <div className=" md:row-start-1  px-[15%] py-10 pb-20 text-center md:text-left">
+          <h3 className=" text-5xl text-dark-blue">
+            Next generation digital banking
+          </h3>
+          <p className=" text-lg my-10 line text-grayish-blue">
             Take your financial life online. Your EasyBank account will be a
             one-stop-shop for spending, saving, budgeting, investing, and much
             more,

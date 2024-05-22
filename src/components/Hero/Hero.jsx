@@ -18,7 +18,7 @@ const HeroSection = () => {
             alt=""
           />
         </div>
-        <div className=" md:row-start-1  px-[15%] py-10 pb-20 text-center md:text-left">
+        <div className=" md:row-start-1 px-10 md:px-20 py-10 pb-20 text-center md:text-left">
           <h3 className=" text-5xl text-dark-blue">
             Next generation digital banking
           </h3>

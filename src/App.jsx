@@ -1,5 +1,6 @@
 import "./App.css";
 import HeroSection from "./components/Hero/Hero";
+import Info from "./components/InfoSection/InfoSection";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className=" overflow-x-hidden">
       <Navbar />
       <HeroSection />
+      <Info />
     </div>
   );
 }
